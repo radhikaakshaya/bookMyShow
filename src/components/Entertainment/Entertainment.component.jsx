@@ -34,7 +34,7 @@ alt={props.original_title} />
   {
     breakpoints:1024,
   settings:{
-  //  arrows: true,
+   arrows: true,
    slidesToShow: 4,
    slidesToScroll: 2,
    Infinite:false
