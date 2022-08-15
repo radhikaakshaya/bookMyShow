@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import EntertainmentPage from '../components/Entertainment/Entertainment.component'
 import Events from '../components/Events/Event.component'
 import Navbar from '../components/navbar/navbar.component'
-import TempImages from '../config/TempImages'
 import HeroCarousel from '../components/HeroImages/Hero.component'
 import axios from 'axios'
 const HomePage = () => {

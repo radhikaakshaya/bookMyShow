@@ -1,7 +1,7 @@
 import React from 'react'
 import PlaysFilters from '../components/PlaysFilters.component'
 import Navbar from '../components/navbar/navbar.component'
-import TempImages from '../config/TempImages'
+
 import Posters from '../components/Poster/Poster.component'
 const PlaysPage = () => {
   return (
@@ -13,7 +13,7 @@ const PlaysPage = () => {
       
   <div className=' lg:w-3/4 '> 
   <h1 className='text-3xl font-bold text-black px-3 '> Plays in Bengaluru</h1>
- <div className='flex flex-wrap md:w-3/4 w-1/2'> 
+ {/* <div className='flex flex-wrap md:w-3/4 w-1/2'> 
  {
    TempImages.map((images)=>{
     return(
@@ -21,7 +21,7 @@ const PlaysPage = () => {
     )
    })
   }
-  </div>
+  </div> */}
 
   </div>
 

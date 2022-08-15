@@ -1,12 +1,8 @@
 // import { Route } from 'react-router-dom'
 import './App.css';
-import DefaultHoc from './HOC/Default.HOC';
 import HomePage from './pages/HomePage.component';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Navbar from './components/navbar/navbar.component';
-import HeroCarousel from './components/HeroImages/Hero.component';
-import MoviesHoc from './HOC/Movies.HOC';
 import MoviePage from './pages/MoviePage.component'
 import { Route, Routes } from 'react-router-dom';
 import PlaysPage from './pages/PlaysPage.component';

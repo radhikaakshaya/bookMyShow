@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import TempImages from '../../config/TempImages'
 import CastCrewEvent from '../Events/CastCrewEvent'
 import Events from '../Events/Event.component'
 import axios from 'axios'
